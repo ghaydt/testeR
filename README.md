@@ -1,5 +1,5 @@
 # Introdu&ccedil;&atilde;o
-Balanço de potência: A ferramenta tem como objetivo avaliar os montantes de potência necessários nos momentos em que o sistema apresenta demanda máxima instantânea com o objetivo de verificar as condições de seu atendimento. Isto é, vericando a possibilidade de déficits e a auxiliando na avaliação de contratação de potência para o sistema. A ferramenta mantém a compatibilidade com a análise energética previamente efetuada.
+Balanço de potência: A ferramenta tem como objetivo avaliar os montantes de potência necessários nos momentos em que o sistema apresenta demanda máxima instantânea com o objetivo de verificar as condições de seu atendimento. Isto é, verificando a possibilidade de déficits e a auxiliando na avaliação de contratação de potência para o sistema. A ferramenta mantém a compatibilidade com a análise energética previamente efetuada.
 
 # Instalando o BP
 1.  Para utilizar a ferramenta do Balanço de Potência é necessário que o R esteja instalado. Para tal, basta baixar a instalação e seguir as instruções localizadas, por exemplo, no "mirror" do CRAN da Fiocruz em https://cran.fiocruz.br/
@@ -26,5 +26,5 @@ Após ter o pacote instalado, basta usar as instruções no *command* do R: `lib
 # Instruções de uso da ferramenta
 Após ter a ferramenta em execução basta clicar no ícone do livro para obter ajuda.
 
-# Contribuição e dúvidas
+# Contribuição
 Caso desejem fazer contribuições no código, basta seguir o procedimento padrão do GitHub. Nós avaliaremos os *commits* e os incorporaremos se verificarmos as devidas melhorias. 
