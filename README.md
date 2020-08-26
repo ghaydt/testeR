@@ -1,10 +1,19 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introdu&ccedil;&atilde;o
+Balanço de potência: A ferramenta tem como objetivo avaliar os montantes de potência necessários nos momentos em que o sistema apresenta demanda máxima instantânea com o objetivo de verificar as condições de seu atendimento. Isto é, vericando a possibilidade de déficits e a auxiliando na avaliação de contratação de potência para o sistema. A ferramenta mantém a compatibilidade com a análise energética previamente efetuada.
 
-# Getting Started
+# Instalando o BP
+1.  Para utilizar a ferramenta do Balanço de Potência é necessário que o R esteja instalado. Para tal, basta baixar a instalação e seguir as instruções localizadas, por exemplo, no "mirror" do CRAN da Fiocruz em https://cran.fiocruz.br/
+2.  Com o R já instalado, execute o R e clique em Pacotes > Instalar pacote(s)... Selecione um "mirror" para baixar os pacotes. Dê preferência para os que estão no Brasil, pois o download será mais rápido. Após isso marque e instale os seguintes pacotes que serão necessários para execução do BP: readr, readxl, writexl, dplyr, stringr, tidyr, clpAPI, DBI, RSQLite, shiny, shinythemes, shinybusy, tictoc, ggplot2, zoo, scales, showtext, jsonlite, parallel, foreach, doParallel, numbers. Outra maneira de instalar as dependências é usando a instrução abaixo no *command* do R.
+
+`install.packages(c("readr", "readxl", "writexl", "dplyr", "stringr", "tidyr", "clpAPI", "DBI", "RSQLite", "shiny", "shinythemes", "shinybusy", "tictoc", "ggplot2", "zoo", "scales", "showtext", "jsonlite", "parallel", "foreach", "doParallel", "numbers"), repos = "https://https://cran.fiocruz.br")` 
+
+3. Após a instalação das dependências que estão no CRAN, você deve instalar o pacote do leitor de arquivos do CEPEL, que também é uma dependência, contudo, ele foi desenvoldifo pela EPE e ainda não está no CRAN. Para instalar esse pacote há duas opções:
+  1. Usar a instrução  no *command* do R.
+  2.
+
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process
-2.	Software dependencies
+1.	Software dependencies
 3.	Latest releases
 4.	API references
 
