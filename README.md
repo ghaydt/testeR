@@ -7,23 +7,24 @@ Balanço de potência: A ferramenta tem como objetivo avaliar os montantes de po
 
 `install.packages(c("readr", "readxl", "writexl", "dplyr", "stringr", "tidyr", "clpAPI", "DBI", "RSQLite", "shiny", "shinythemes", "shinybusy", "tictoc", "ggplot2", "zoo", "scales", "showtext", "jsonlite", "parallel", "foreach", "doParallel", "numbers"), repos = "https://https://cran.fiocruz.br")` 
 
-3. Após a instalação das dependências que estão no CRAN, você deve instalar o pacote do leitor de arquivos do CEPEL, que também é uma dependência, contudo, ele foi desenvoldifo pela EPE e ainda não está no CRAN. Para instalar esse pacote há duas opções:
-  1. Usar a instrução  no *command* do R.
-  2.
+3. Após a instalação das dependências que estão no CRAN, você deve instalar o pacote do leitor de arquivos do CEPEL, que também é uma dependência, contudo, ele foi desenvolvido pela EPE e ainda não está no CRAN. Para instalar esse pacote há duas opções:
+   1. Usar as instruções no *command* do R: `library(devtools)`   
+     `install_github("equipesge/leitorrcepel")`
+     
+   2. Ou efetuar o download do pacote em zip em www.epe.gov.br/xxxxx e, depois, no R, ir em Pacotes > Install package(s) from local files... e escolher o zip recém baixado.
 
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-1.	Software dependencies
-3.	Latest releases
-4.	API references
+4. Finalmente, podemos instalar o pacote do BP. Para instalar o pacote há duas opções:
+   1. Usar as instruções no *command* do R: `library(devtools)`   
+     `install_github("equipesge/epebpr")`
+     
+   2. Ou efetuar o download do pacote em zip em www.epe.gov.br/xxxxx e, depois, no R, ir em Pacotes > Install package(s) from local files... e escolher o zip recém baixado.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Executando o BP
+Após ter o pacote instalado, basta usar as instruções no *command* do R: `library(epebpr)`   
+     `aplicacaoBalanco()`
+ 
+# Instruções de uso da ferramenta
+Após ter a ferramenta em execução basta clicar no ícone do livro para obter ajuda.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Contribuição e dúvidas
+Caso desejem fazer contribuições no código, basta seguir o procedimento padrão do GitHub. Nós avaliaremos os *commits* e os incorporaremos se verificarmos as devidas melhorias. 
