@@ -7,9 +7,9 @@ Balanço de potência: A ferramenta tem como objetivo avaliar os montantes de po
 
 `install.packages(c("readr", "readxl", "writexl", "dplyr", "stringr", "tidyr", "clpAPI", "DBI", "RSQLite", "shiny", "shinythemes", "shinybusy", "tictoc", "ggplot2", "zoo", "scales", "showtext", "jsonlite", "parallel", "foreach", "doParallel", "numbers", "devtools"), repos = "https://https://cran.fiocruz.br")` 
 
-3. Após a instalação das dependências que estão no CRAN, você deve instalar o pacote do leitor de arquivos do CEPEL, que também é uma dependência, contudo, ele foi desenvolvido pela EPE e ainda não está no CRAN. Para instalar esse pacote há duas opções:
+3. Após a instalação das dependências que estão no CRAN, você deve instalar o pacote do leitor de arquivos dos modelos de planejamento energético do CEPEL (`leitorrmpe`). Este também é uma dependência, contudo, ele foi desenvolvido pela EPE e ainda não está no CRAN. Para instalar esse pacote há duas opções:
    1. Usar as instruções no *command* do R: `library(devtools)`   
-     `install_github("equipesge/leitorrcepel")`
+     `install_github("equipesge/leitorrmpe")`
      
    2. Ou efetuar o download do pacote em zip em www.epe.gov.br/xxxxx e, depois, no R, ir em Pacotes > Install package(s) from local files... e escolher o zip recém baixado.
 
